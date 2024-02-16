@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "bugutils",
+	"version": "${version}",
+	"name": "Bug-Utils",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"MrBreakNFix",
+		"Coderx-Gamer"
+	],
+	"contact": {
+		"homepage": "https://mrbreaknfix.com/mcutils",
+		"sources": "https://github.com/MrBreakNFix/mc-utils"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mcutils/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.mrbreaknfix.mcutils.McUtils"
+		]
+	},
+	"mixins": [
+      "mcutils.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
